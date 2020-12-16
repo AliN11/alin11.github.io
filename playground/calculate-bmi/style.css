@@ -1,0 +1,31 @@
+body {
+  font-size: 20px;
+  font-family: 'Harmattan', sans-serif;
+  direction: rtl;
+  background-color: crimson;
+}
+
+form {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px -5px #555;
+  margin-top: 30px;
+}
+
+form input {
+  border-radius: 1rem !important;
+}
+
+button {
+  font-size: 1.25rem !important;
+  border-radius: 1.25rem !important;
+}
+
+p.result {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+p.result:empty {
+  display: none;
+}
