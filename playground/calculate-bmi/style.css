@@ -10,6 +10,7 @@ form {
   border-radius: 1rem;
   box-shadow: 0 0 20px -5px #555;
   margin-top: 30px;
+  max-width: 350px;
 }
 
 form input {
