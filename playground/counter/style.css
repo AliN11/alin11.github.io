@@ -8,10 +8,14 @@ body {
   background-color: lightgreen;
 }
 
+.container {
+  margin-bottom: 50px;
+}
+
 #counter {
-  margin: 50px auto;
-  width: 200px;
-  height: 200px;
+  margin: 30px auto;
+  width: 180px;
+  height: 180px;
   text-align: center
 }
 
@@ -46,9 +50,9 @@ button {
   border-radius: 10px 0 0 10px !important;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 520px) {
  #counter {
-  margin: 50px auto;
+  margin: 20px auto;
   width: 125px;
   height: 125px;
   text-align: center
