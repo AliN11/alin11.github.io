@@ -45,3 +45,23 @@ button {
 .decrease {
   border-radius: 10px 0 0 10px !important;
 }
+
+@media(max-width: 768px) {
+ #counter {
+  margin: 50px auto;
+  width: 125px;
+  height: 125px;
+  text-align: center
+ }
+  
+  #number {
+    font-size: 50px;
+  }
+  
+  button {
+    padding: 0px 20px !important;
+    font-size: 30px !important;
+    background: #fff !important;
+  }
+
+}
