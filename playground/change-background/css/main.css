@@ -6,7 +6,7 @@ body {
 }
 
 #current-color {
-  font-size: 120px;
+  font-size: clamp(1rem, 9vw, 4rem);
   margin-top: 150px !important;
   font-family: monospace;
   text-shadow: 2px 2px 0 #fff;
@@ -34,7 +34,6 @@ button.active {
 
 @media(max-width: 768px) {
   #current-color {
-    font-size: 70px;
     margin-top: 10px !important;
   }
   
