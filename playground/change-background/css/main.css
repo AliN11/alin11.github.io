@@ -30,3 +30,21 @@ div.colors button {
 button.active {
   border-color: green !important;
 }
+
+
+@media(max-width: 768px) {
+  #current-color {
+    font-size: 70px;
+    margin-top: 10px !important;
+  }
+  
+  div.colors {
+    bottom: 20px;
+  }
+  
+  div.colors button {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+  }
+}
