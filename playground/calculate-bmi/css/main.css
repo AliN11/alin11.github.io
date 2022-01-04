@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+
+body {
+  font-size: 40px;
+  font-family: 'Harmattan', sans-serif;
+  direction: rtl;
+  background-color: crimson;
+}
+
+#app {
+  max-width: 980px;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px -5px #555;
+  width: 350px;
+}
+
+form input {
+  border-radius: 1rem !important;
+}
+
+button {
+  font-size: 1.25rem !important;
+  border-radius: 1.25rem !important;
+}
+
+p.result {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+p.result:empty {
+  display: none;
+}
+
+.vertical-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
