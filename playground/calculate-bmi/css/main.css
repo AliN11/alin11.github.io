@@ -14,11 +14,24 @@ body {
   text-align: center;
 }
 
-form {
+.container {
   background: #fff;
   border-radius: 1rem;
   box-shadow: 0 0 20px -5px #555;
   width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
 }
 
 form input {
@@ -30,19 +43,11 @@ button {
   border-radius: 1.25rem !important;
 }
 
-p.result {
+p#result {
   text-align: center;
   margin: 10px 0 0 0;
 }
 
-p.result:empty {
+p#result:empty {
   display: none;
-}
-
-.vertical-center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
