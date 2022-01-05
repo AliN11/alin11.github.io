@@ -19,13 +19,9 @@ body {
   border-radius: 1rem;
   box-shadow: 0 0 20px -5px #555;
   width: 350px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   padding: 20px;
   text-align: right;
+  margin: 50px auto;
 }
 
 h1 {
@@ -50,4 +46,16 @@ p#result {
 
 p#result:empty {
   display: none;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  } 
 }
