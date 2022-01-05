@@ -11,6 +11,7 @@ body {
 #app {
   max-width: 980px;
   margin: auto;
+  padding: 0 15px;
   text-align: center;
 }
 
@@ -18,7 +19,7 @@ body {
   background: #fff;
   border-radius: 1rem;
   box-shadow: 0 0 20px -5px #555;
-  width: 350px;
+  max-width: 350px;
   padding: 20px;
   text-align: right;
   margin: 50px auto;
@@ -48,6 +49,9 @@ p#result:empty {
   display: none;
 }
 
+label {
+  font-size: 30px;
+}
 
 @media (min-width: 768px) {
   .container {
