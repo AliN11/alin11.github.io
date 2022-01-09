@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('button.css');
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: navajowhite;
+  color: #0009;
+}
+
+#app {
+  max-width: 980px;
+  margin: 50px auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 70px;
+  margin: 0;
+}
+
+form input {
+  border-radius: 1rem !important;
+  text-align: center;
+  line-height: 0 !important;
+  font-size: 50px !important;
+  border: none !important;
+  width: 100%;
+}
+
+.modal {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.modal .background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0007;
+}
+
+.modal .modal-container {
+  margin: auto;
+  background: #fff;
+  padding: 10px;
+  text-align: left;
+  width: 85%;
+  max-width: 500px;
+  margin-top: 50px;
+  position: relative;
+  border-radius: 1.5rem;
+}
+
+.modal .header {
+  font-weight: bolder;
+  padding: 20px;
+  border-bottom: 1px solid #0002;
+  font-size: 20px;
+}
+
+.modal .header button {
+  position: absolute;
+  display: initial;
+  width: 50px;
+  height: 50px;
+  right: 15px;
+  top: 15px;
+  border: none;
+  border-radius: 1.2rem;
+}
+
+.modal .body {
+  padding: 20px;
+  font-size: 20px;
+  min-height: 200px;
+  text-align: left;
+}
+
+@media (min-width: 768px) and (min-height: 600px) {
+  .container {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
