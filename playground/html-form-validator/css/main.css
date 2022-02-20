@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+@import url('./button.css');
+
+body {
+  font-family: 'Comfortaa', cursive;
+  background-color: tomato;
+  color: #0008;
+}
+
+#app {
+  margin: 50px auto;
+  padding: 0 15px;
+  max-width: 450px;
+}
+
+form {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .7);
+  border: none;
+  padding: 0 15px 15px 15px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bolder;
+  margin: 30px 0;
+}
+
+input {
+  border: none !important;
+  padding: 10px !important;
+}
+
+input, button {
+  border-radius: 2rem !important;
+}
+
+input + .validator-err {
+  margin-top: 5px;
+}
+.validator-err {
+  padding: 0 5px;
+  margin: 0;
+  color: red;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px !important;
+}
+
+@media (min-width: 768px) {
+  .container {
+    position: absolute;
+    margin: auto !important;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
