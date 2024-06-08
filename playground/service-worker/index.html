@@ -3,15 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Service Worksss er</title>
+    <title>Service Worker</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
+    <h1>Service Worker</h1>
+    <p>Try to visit this page offline.</p>
     <script>
       window.addEventListener("load", () => {
         if ("serviceWorker" in navigator) {
           navigator.serviceWorker
-            .register(".service-worker.js")
+            .register("./service-worker.js")
             .then(() => {
               console.log("Service Worker registered");
             })
